@@ -60,13 +60,13 @@ inline i32 sine(u32 phase) {
 inline i32 blep(u32 phase, u32 increment, u32 reciprocal) {
     if (phase < increment) {
         const i32 t = static_cast<i32>(((phase >> 16) * reciprocal) >> 16);
-        const i32 d = 65536 - t;
-        return -((d * d) >> 16);
+        const i32 d = (65536 - t) >> 1;   // halved: 65536^2 does not fit 32 bits
+        return -((d * d) >> 14);
     }
     if (phase > ~increment) {
         const i32 u = static_cast<i32>((((0u - phase) >> 16) * reciprocal) >> 16);
-        const i32 d = 65536 - u;
-        return (d * d) >> 16;
+        const i32 d = (65536 - u) >> 1;
+        return (d * d) >> 14;
     }
     return 0;
 }
@@ -155,8 +155,10 @@ inline void render(Voice& voice, Shared&, u32, opxy::Output output,
             if (c) voice.phase_b += inc; else voice.phase_a += inc;
         }
         if (two) sum >>= 1;
-        voice.filtered += ((sum - voice.filtered) * smooth) >> 15;
-        i32 out = (voice.filtered * gain) >> 16;
+        // In two halves, so nothing overflows 32 bits (signed overflow is undefined).
+        const i32 diff = sum - voice.filtered;
+        voice.filtered += (diff >> 15) * smooth + (((diff & 32767) * smooth) >> 15);
+        i32 out = (voice.filtered >> 16) * gain + (((voice.filtered & 65535) * (gain >> 1)) >> 15);
         out = out < -16384 ? -16384 : out > 16384 ? 16384 : out;
         output[i] = out * 65536;
     }

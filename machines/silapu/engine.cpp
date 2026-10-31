@@ -48,12 +48,12 @@ inline i32 sine(u32 phase) {
 // PolyBLEP residual in Q16 for an upward step of 2 at phase 0.
 inline i32 blep(u32 phase, u32 increment, u32 reciprocal) {
     if (phase < increment) {
-        const i32 d = 65536 - static_cast<i32>(((phase >> 16) * reciprocal) >> 16);
-        return -((d * d) >> 16);
+        const i32 d = (65536 - static_cast<i32>(((phase >> 16) * reciprocal) >> 16)) >> 1;   // halved: 65536^2 does not fit 32 bits
+        return -((d * d) >> 14);
     }
     if (phase > ~increment) {
-        const i32 d = 65536 - static_cast<i32>((((0u - phase) >> 16) * reciprocal) >> 16);
-        return (d * d) >> 16;
+        const i32 d = (65536 - static_cast<i32>((((0u - phase) >> 16) * reciprocal) >> 16)) >> 1;   // halved: 65536^2 does not fit 32 bits
+        return (d * d) >> 14;
     }
     return 0;
 }

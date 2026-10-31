@@ -91,7 +91,7 @@ inline void render(Voice& voice, Shared&, u32, opxy::Output output,
             sum = (sum + wave[(voice.copy >> shift) << skip] * volume) >> 1;
             voice.copy += inc_copy;
         }
-        i32 x = sum << 2;  // Q15
+        i32 x = sum * 4;  // Q15 (a multiply: a negative value shifted left is undefined)
         if (filter) {
             voice.rc += ((x - voice.rc) * rc_coefficient) >> 15;
             x = voice.rc;
