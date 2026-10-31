@@ -77,3 +77,48 @@ jobs:
         run: python open-xy/sdk.py toolchain fetch
       - name: Native compile (no stock firmware or device)
         run: python open-xy/sdk.py compile --machine repo/machines/${{ matrix.id }} --out "${{ runner.temp }}/module"
+  previews:
+    # On main only: each machine's browser preview (engine.wasm, panel.svg, manifest.json,
+    # with machine.json and LICENSE) as <id>-preview.zip on the rolling release "previews".
+    # OP-PLAYGROUND's catalog loads them from there instead of building the machines itself.
+    needs: [licenses, list, machine]
+    if: github.ref == 'refs/heads/main' && needs.list.outputs.machines != '[]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+      - uses: actions/checkout@v4
+        with:
+          repository: etcetc000/open-xy
+          ref: ${{ env.OPEN_XY_REF }}
+          path: open-xy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preview tools
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang lld
+          python -m pip install numpy==2.3.5
+      - name: Build the previews
+        run: |
+          mkdir -p out
+          for dir in repo/machines/*/; do
+            id=$(basename "$dir")
+            python open-xy/sdk.py preview --machine "$dir" --out "build/$id"
+            rm -f build/$id/*.cpp build/$id/*.hpp
+            cp "$dir/machine.json" "$dir/LICENSE" "build/$id/"
+            (cd build/$id && zip -qr "$GITHUB_WORKSPACE/out/$id-preview.zip" .)
+          done
+      - name: Publish to the release "previews"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release view previews >/dev/null 2>&1 || gh release create previews --title "Browser previews" --notes "Built by CI from main. For OP-PLAYGROUND's catalog; the source is this repository."
+          gh release upload previews out/*.zip --clobber
