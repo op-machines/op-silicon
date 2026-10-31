@@ -1,0 +1,192 @@
+{
+  "schema": 1,
+  "id": "silapu",
+  "name": "APU",
+  "parameters": [
+    {
+      "id": "duty",
+      "label": "Duty",
+      "default": 0.6,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "12.5",
+          "25",
+          "50",
+          "75"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "sweep",
+      "label": "Sweep",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": -1,
+        "maximum": 1
+      },
+      "display": "bipolar"
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "long",
+          "short"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "env",
+      "label": "Env",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "const",
+          "62ms",
+          "125ms",
+          "187ms",
+          "250ms",
+          "312ms",
+          "375ms",
+          "437ms",
+          "500ms",
+          "562ms",
+          "625ms",
+          "687ms",
+          "750ms",
+          "812ms",
+          "875ms",
+          "937ms",
+          "1000ms"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "mix",
+      "label": "Mix",
+      "control": 0,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "vibrato",
+      "label": "Vibrato",
+      "control": 1,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "lowpass",
+      "label": "Lowpass",
+      "control": 2,
+      "default": 0.1,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "gain",
+      "label": "Gain",
+      "control": 3,
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {
+    "Pulse": {
+      "duty": 0.6,
+      "sweep": 0.5,
+      "noise": 0,
+      "env": 0,
+      "mix": 0,
+      "vibrato": 0,
+      "lowpass": 0.1,
+      "gain": 0.5
+    },
+    "Bass": {
+      "duty": 0.6,
+      "sweep": 0.5,
+      "noise": 0,
+      "env": 0,
+      "mix": 1.0,
+      "vibrato": 0,
+      "lowpass": 0.2,
+      "gain": 0.5
+    },
+    "Lead": {
+      "duty": 0.1,
+      "sweep": 0.5,
+      "noise": 0,
+      "env": 0.6,
+      "mix": 0,
+      "vibrato": 0.35,
+      "lowpass": 0.1,
+      "gain": 0.5
+    },
+    "Laser": {
+      "duty": 0.4,
+      "sweep": 0.05,
+      "noise": 0,
+      "env": 0.3,
+      "mix": 0,
+      "vibrato": 0,
+      "lowpass": 0.1,
+      "gain": 0.5
+    },
+    "Snare": {
+      "duty": 0.6,
+      "sweep": 0.5,
+      "noise": 0.5,
+      "env": 0.2,
+      "mix": 0.6,
+      "vibrato": 0,
+      "lowpass": 0.1,
+      "gain": 0.5
+    }
+  },
+  "resources": {
+    "voiceBytes": 56,
+    "voiceAlignment": 4,
+    "voiceCapacity": 8,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 28,
+      "stateAlignment": 4,
+      "paths": 2,
+      "points": 64,
+      "nodes": 29,
+      "texts": 16,
+      "palette": 16
+    }
+  },
+  "press": "page"
+}

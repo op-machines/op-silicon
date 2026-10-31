@@ -1,0 +1,7 @@
+{
+  "schema": 1,
+  "sdk": "1.6",
+  "kind": "synth",
+  "description": "The MOS6581 as reSID plays it: waves alone or combined, pulse width, filter, sync and ring, ADSR, chord arps. GPL-2.0-or-later.",
+  "presets": "presets"
+}

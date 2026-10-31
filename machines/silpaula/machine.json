@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "sdk": "1.6",
+  "kind": "synth",
+  "description": "Amiga Paula, clean-room: 8-bit waves read without interpolation, 6-bit volume, attached AM/FM channels, A500 and LED filters. MIT."
+}

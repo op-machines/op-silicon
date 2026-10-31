@@ -1,0 +1,170 @@
+{
+  "schema": 1,
+  "id": "silay",
+  "name": "AY",
+  "parameters": [
+    {
+      "id": "mixer",
+      "label": "Mixer",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "tone",
+          "t+n",
+          "noise"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "noise",
+      "label": "Noise",
+      "default": 0.6,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "shape",
+      "label": "Shape",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "decay",
+          "saw dn",
+          "tri",
+          "dec hi",
+          "saw up",
+          "attack",
+          "tri up",
+          "att 0"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "rate",
+      "label": "Rate",
+      "default": 0.3,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "detune",
+      "label": "Detune",
+      "control": 0,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "vibrato",
+      "label": "Vibrato",
+      "control": 1,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "lowpass",
+      "label": "Lowpass",
+      "control": 2,
+      "default": 0.2,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "gain",
+      "label": "Gain",
+      "control": 3,
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {
+    "Square": {
+      "mixer": 0,
+      "noise": 0.6,
+      "shape": 0,
+      "rate": 0.3,
+      "detune": 0,
+      "vibrato": 0,
+      "lowpass": 0.2,
+      "gain": 0.5
+    },
+    "Buzz bass": {
+      "mixer": 0,
+      "noise": 0.6,
+      "shape": 0.5,
+      "rate": 0.9,
+      "detune": 0,
+      "vibrato": 0,
+      "lowpass": 0.3,
+      "gain": 0.5
+    },
+    "Chime": {
+      "mixer": 0,
+      "noise": 0.6,
+      "shape": 0.15,
+      "rate": 0.35,
+      "detune": 0.4,
+      "vibrato": 0.3,
+      "lowpass": 0.2,
+      "gain": 0.5
+    },
+    "Hat": {
+      "mixer": 0.9,
+      "noise": 0.95,
+      "shape": 0.15,
+      "rate": 0.6,
+      "detune": 0,
+      "vibrato": 0,
+      "lowpass": 0.2,
+      "gain": 0.5
+    }
+  },
+  "resources": {
+    "voiceBytes": 32,
+    "voiceAlignment": 4,
+    "voiceCapacity": 8,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 32,
+      "stateAlignment": 4,
+      "paths": 2,
+      "points": 64,
+      "nodes": 29,
+      "texts": 16,
+      "palette": 16
+    }
+  },
+  "press": "page"
+}

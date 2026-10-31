@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "id": "silpaula",
+  "name": "Paula",
+  "parameters": [
+    {
+      "id": "wave",
+      "label": "Wave",
+      "default": 0.4,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "sine",
+          "tri",
+          "saw",
+          "square",
+          "pulse",
+          "organ",
+          "vox",
+          "grit"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "length",
+      "label": "Length",
+      "default": 0.5,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "32",
+          "64",
+          "128"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "mod",
+      "label": "Mod",
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "am",
+          "fm",
+          "am lfo",
+          "fm lfo"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "depth",
+      "label": "Depth",
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "env",
+      "label": "Env",
+      "control": 0,
+      "default": 0,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "hold",
+          "1280ms",
+          "640ms",
+          "426ms",
+          "320ms",
+          "256ms",
+          "213ms",
+          "182ms",
+          "160ms",
+          "142ms",
+          "128ms",
+          "116ms",
+          "106ms",
+          "98ms",
+          "91ms",
+          "85ms",
+          "80ms"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "filter",
+      "label": "Filter",
+      "control": 1,
+      "default": 0.5,
+      "mapping": {
+        "kind": "enum",
+        "labels": [
+          "off",
+          "a500",
+          "led"
+        ]
+      },
+      "display": "enum"
+    },
+    {
+      "id": "detune",
+      "label": "Detune",
+      "control": 2,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "gain",
+      "label": "Gain",
+      "control": 3,
+      "default": 0.5,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {
+    "Saw": {
+      "wave": 0.4,
+      "length": 0.5,
+      "mod": 0,
+      "depth": 0.5,
+      "env": 0,
+      "filter": 0.5,
+      "detune": 0,
+      "gain": 0.5
+    },
+    "Chip lead": {
+      "wave": 0.45,
+      "length": 0.1,
+      "mod": 0,
+      "depth": 0.5,
+      "env": 0,
+      "filter": 0.5,
+      "detune": 0.3,
+      "gain": 0.5
+    },
+    "FM bell": {
+      "wave": 0.05,
+      "length": 0.5,
+      "mod": 0.5,
+      "depth": 0.6,
+      "env": 0.3,
+      "filter": 0.5,
+      "detune": 0,
+      "gain": 0.5
+    },
+    "Tremolo": {
+      "wave": 0.7,
+      "length": 0.5,
+      "mod": 0.7,
+      "depth": 0.7,
+      "env": 0,
+      "filter": 0.5,
+      "detune": 0,
+      "gain": 0.5
+    },
+    "Pluck": {
+      "wave": 0.95,
+      "length": 0.9,
+      "mod": 0,
+      "depth": 0.5,
+      "env": 0.8,
+      "filter": 0.9,
+      "detune": 0,
+      "gain": 0.5
+    }
+  },
+  "resources": {
+    "voiceBytes": 32,
+    "voiceAlignment": 4,
+    "voiceCapacity": 8,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 28,
+      "stateAlignment": 4,
+      "paths": 2,
+      "points": 64,
+      "nodes": 30,
+      "texts": 16,
+      "palette": 16
+    }
+  },
+  "press": "page"
+}

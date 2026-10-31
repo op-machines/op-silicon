@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "id": "silsid",
+  "name": "6581",
+  "parameters": [
+    {
+      "id": "wave",
+      "label": "Wave",
+      "default": 0.3,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "width",
+      "label": "Width",
+      "default": 0.3,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "cutoff",
+      "label": "Cutoff",
+      "default": 0.6,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "reso",
+      "label": "Reso",
+      "default": 0.4,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "filter",
+      "label": "Filter",
+      "control": 0,
+      "default": 0.2,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "mod",
+      "label": "Mod",
+      "control": 1,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "env",
+      "label": "Env",
+      "control": 2,
+      "default": 0.3,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    },
+    {
+      "id": "arp",
+      "label": "Arp",
+      "control": 3,
+      "default": 0,
+      "mapping": {
+        "kind": "linear",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "display": "percent"
+    }
+  ],
+  "presets": {
+    "Init": {
+      "wave": 0.3,
+      "width": 0.3,
+      "cutoff": 0.6,
+      "reso": 0.4,
+      "filter": 0.2,
+      "mod": 0,
+      "env": 0.3,
+      "arp": 0
+    }
+  },
+  "resources": {
+    "voiceBytes": 952,
+    "voiceAlignment": 4,
+    "voiceCapacity": 6,
+    "sharedBytes": 0,
+    "outputPeakQ31": 1073741824,
+    "display": {
+      "stateBytes": 24,
+      "stateAlignment": 4,
+      "paths": 4,
+      "points": 64,
+      "nodes": 130,
+      "texts": 16,
+      "palette": 14
+    }
+  },
+  "press": "page"
+}

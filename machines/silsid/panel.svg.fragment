@@ -1,0 +1,165 @@
+<!-- SPDX-License-Identifier: GPL-2.0-or-later -->
+<!-- Copyright (C) 2026 op-machines -->
+<g id="silsid_panel">
+  <path id="silsid_header_cover" d="M0,0L480,0L480,38L0,38Z" fill="#000000" stroke="#000000" stroke-width="0"/>
+  <path d="M-64,-9.5162L-59.871,13.019L-55.7419,13.7636L-51.6129,13.7585L-47.4839,13.7567L-43.3548,13.7566L-39.2258,13.7566L-35.0968,13.7566L-30.9677,13.7566L-26.8387,13.7566L-22.7097,13.7566L-18.5806,13.7566L-14.4516,-18.447L-10.3226,-13.8258L-6.1935,-13.7508L-2.0645,-13.7561L2.0645,-13.7566L6.1935,-13.7566L10.3226,-13.7566L14.4516,-13.7566L18.5806,-13.7566L22.7097,-13.7566L26.8387,-13.7566L30.9677,-13.7566L35.0968,-13.7566L39.2258,-13.7566L43.3548,-13.7566L47.4839,-13.7566L51.6129,-13.7566L55.7419,-13.7566L59.871,-13.7566L64,-13.7566L64,-13.1566L59.871,-13.1566L55.7419,-13.1566L51.6129,-13.1566L47.4839,-13.1566L43.3548,-13.1566L39.2258,-13.1566L35.0968,-13.1566L30.9677,-13.1566L26.8387,-13.1566L22.7097,-13.1566L18.5806,-13.1566L14.4516,-13.1566L10.3226,-13.1566L6.1935,-13.1566L2.0645,-13.1566L-2.0645,-13.1561L-6.1935,-13.1508L-10.3226,-13.2258L-14.4516,-17.847L-18.5806,14.3566L-22.7097,14.3566L-26.8387,14.3566L-30.9677,14.3566L-35.0968,14.3566L-39.2258,14.3566L-43.3548,14.3566L-47.4839,14.3567L-51.6129,14.3585L-55.7419,14.3636L-59.871,13.619L-64,-8.9162Z" id="silsid_node_0" fill="none" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 160 113)"/>
+  <path d="M-64,-0.0001L-59.871,-0.0001L-55.7419,-0.0001L-51.6129,-0.0002L-47.4839,-0.0003L-43.3548,-0.0005L-39.2258,-0.0008L-35.0968,-0.0013L-30.9677,-0.002L-26.8387,-0.0031L-22.7097,-0.0048L-18.5806,-0.0076L-14.4516,-0.0118L-10.3226,-0.0184L-6.1935,-0.0288L-2.0645,-0.0449L2.0645,-0.0701L6.1935,-0.1094L10.3226,-0.1706L14.4516,-0.2656L18.5806,-0.413L22.7097,-0.6403L26.8387,-0.9873L30.9677,-1.506L35.0968,-2.2431L39.2258,-3.1512L43.3548,-3.7479L47.4839,-2.4212L51.6129,2.6794L55.7419,10.5567L59.871,19.1906L64,27.7514L64,28.3514L59.871,19.7906L55.7419,11.1567L51.6129,3.2794L47.4839,-1.8212L43.3548,-3.1479L39.2258,-2.5512L35.0968,-1.6431L30.9677,-0.906L26.8387,-0.3873L22.7097,-0.0403L18.5806,0.187L14.4516,0.3344L10.3226,0.4294L6.1935,0.4906L2.0645,0.5299L-2.0645,0.5551L-6.1935,0.5712L-10.3226,0.5816L-14.4516,0.5882L-18.5806,0.5924L-22.7097,0.5952L-26.8387,0.5969L-30.9677,0.598L-35.0968,0.5987L-39.2258,0.5992L-43.3548,0.5995L-47.4839,0.5997L-51.6129,0.5998L-55.7419,0.5999L-59.871,0.5999L-64,0.5999Z" id="silsid_node_1" fill="none" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 376 118)"/>
+  <path d="M-32,-20L-29.9355,-10.4423L-27.871,-9.4486L-25.8065,-9.3453L-23.7419,-9.3346L-21.6774,-9.3335L-19.6129,-9.3333L-17.5484,-9.3333L-15.4839,-9.3333L-13.4194,-9.3333L-11.3548,-9.3333L-9.2903,-9.3333L-7.2258,-9.3333L-5.1613,-9.3333L-3.0968,-9.3333L-1.0323,-9.3333L1.0323,-9.3333L3.0968,-9.3333L5.1613,-9.3333L7.2258,-9.3333L9.2903,12.873L11.3548,19.2591L13.4194,19.923L15.4839,19.992L17.5484,19.9992L19.6129,19.9999L21.6774,20L23.7419,20L25.8065,20L27.871,20L29.9355,20L32,20L32,20.6L29.9355,20.6L27.871,20.6L25.8065,20.6L23.7419,20.6L21.6774,20.6L19.6129,20.5999L17.5484,20.5992L15.4839,20.592L13.4194,20.523L11.3548,19.8591L9.2903,13.473L7.2258,-8.7333L5.1613,-8.7333L3.0968,-8.7333L1.0323,-8.7333L-1.0323,-8.7333L-3.0968,-8.7333L-5.1613,-8.7333L-7.2258,-8.7333L-9.2903,-8.7333L-11.3548,-8.7333L-13.4194,-8.7333L-15.4839,-8.7333L-17.5484,-8.7333L-19.6129,-8.7333L-21.6774,-8.7335L-23.7419,-8.7346L-25.8065,-8.7453L-27.871,-8.8486L-29.9355,-9.8423L-32,-19.4Z" id="silsid_node_2" fill="none" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 296 113)"/>
+  <path d="M-32,0L-29.9355,0L-27.871,0L-25.8065,0L-23.7419,0L-21.6774,0L-19.6129,0L-17.5484,0L-15.4839,0L-13.4194,0L-11.3548,0L-9.2903,0L-7.2258,0L-5.1613,0L-3.0968,0L-1.0323,0L1.0323,0L3.0968,0L5.1613,0L7.2258,0L9.2903,0L11.3548,0L13.4194,0L15.4839,0L17.5484,0L19.6129,0L21.6774,0L23.7419,0L25.8065,0L27.871,0L29.9355,0L32,0L32,0.6L29.9355,0.6L27.871,0.6L25.8065,0.6L23.7419,0.6L21.6774,0.6L19.6129,0.6L17.5484,0.6L15.4839,0.6L13.4194,0.6L11.3548,0.6L9.2903,0.6L7.2258,0.6L5.1613,0.6L3.0968,0.6L1.0323,0.6L-1.0323,0.6L-3.0968,0.6L-5.1613,0.6L-7.2258,0.6L-9.2903,0.6L-11.3548,0.6L-13.4194,0.6L-15.4839,0.6L-17.5484,0.6L-19.6129,0.6L-21.6774,0.6L-23.7419,0.6L-25.8065,0.6L-27.871,0.6L-29.9355,0.6L-32,0.6Z" id="silsid_node_3" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 296 165)"/>
+  <path d="M0,0L440,0L440,148L0,148Z" id="silsid_node_4" fill="none" stroke="#6E6E6E" stroke-width="0.6" transform="matrix(1 0 0 1 20 56)"/>
+  <path d="M0,-8L2.0706,-7.7274L4,-6.9282L5.6569,-5.6569L6.9282,-4L7.7274,-2.0706L8,0L7.7274,2.0706L6.9282,4L5.6569,5.6569L4,6.9282L2.0706,7.7274L0,8Z" id="silsid_node_5" fill="#0B0B0B" stroke="#6E6E6E" stroke-width="0.6" transform="matrix(1 0 0 1 20 130)"/>
+  <circle cx="0" cy="0" r="2.5" id="silsid_node_6" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 32 192)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_7" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 50 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_8" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 79.2 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_9" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 108.4 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_10" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 137.6 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_11" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 166.8 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_12" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 196 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_13" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 225.2 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_14" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 254.4 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_15" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 283.6 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_16" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 312.8 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_17" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 342 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_18" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 371.2 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_19" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 400.4 56)"/>
+  <path d="M-5,-10L5,-10L5,0L-5,0Z" id="silsid_node_20" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 429.6 56)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_21" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 50 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_22" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 79.2 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_23" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 108.4 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_24" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 137.6 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_25" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 166.8 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_26" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 196 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_27" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 225.2 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_28" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 254.4 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_29" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 283.6 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_30" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 312.8 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_31" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 342 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_32" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 371.2 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_33" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 400.4 204)"/>
+  <path d="M-5,0L5,0L5,10L-5,10Z" id="silsid_node_34" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 429.6 204)"/>
+  <path d="M0,0L356,0L356,112L0,112Z" id="silsid_node_35" fill="none" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 62 74)"/>
+  <path d="M-0.1552,0.196L23.8448,19.196L24.1552,18.804L0.1552,-0.196Z" id="silsid_node_36" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 50 57)"/>
+  <path d="M-0.1708,0.1825L20.1292,19.1825L20.4708,18.8175L0.1708,-0.1825Z" id="silsid_node_37" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 79.2 57)"/>
+  <path d="M-0.1883,0.1645L16.4117,19.1645L16.7883,18.8355L0.1883,-0.1645Z" id="silsid_node_38" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 108.4 57)"/>
+  <path d="M-0.2068,0.1404L12.6932,19.1404L13.1068,18.8596L0.2068,-0.1404Z" id="silsid_node_39" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 137.6 57)"/>
+  <path d="M-0.225,0.109L8.975,19.109L9.425,18.891L0.225,-0.109Z" id="silsid_node_40" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 166.8 57)"/>
+  <path d="M-0.2401,0.0695L5.2599,19.0695L5.7401,18.9305L0.2401,-0.0695Z" id="silsid_node_41" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 196 57)"/>
+  <path d="M-0.2489,0.0236L1.5511,19.0236L2.0489,18.9764L0.2489,-0.0236Z" id="silsid_node_42" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 225.2 57)"/>
+  <path d="M-0.2488,-0.0249L-2.1488,18.9751L-1.6512,19.0249L0.2488,0.0249Z" id="silsid_node_43" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 254.4 57)"/>
+  <path d="M-0.2398,-0.0707L-5.8398,18.9293L-5.3602,19.0707L0.2398,0.0707Z" id="silsid_node_44" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 283.6 57)"/>
+  <path d="M-0.2245,-0.1099L-9.5245,18.8901L-9.0755,19.1099L0.2245,0.1099Z" id="silsid_node_45" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 312.8 57)"/>
+  <path d="M-0.2063,-0.1412L-13.2063,18.8588L-12.7937,19.1412L0.2063,0.1412Z" id="silsid_node_46" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 342 57)"/>
+  <path d="M-0.1878,-0.165L-16.8878,18.835L-16.5122,19.165L0.1878,0.165Z" id="silsid_node_47" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 371.2 57)"/>
+  <path d="M-0.1704,-0.1829L-20.5704,18.8171L-20.2296,19.1829L0.1704,0.1829Z" id="silsid_node_48" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 400.4 57)"/>
+  <path d="M-0.1548,-0.1963L-24.2548,18.8037L-23.9452,19.1963L0.1548,0.1963Z" id="silsid_node_49" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 429.6 57)"/>
+  <path d="M0.1552,0.196L24.1552,-18.804L23.8448,-19.196L-0.1552,-0.196Z" id="silsid_node_50" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 50 203)"/>
+  <path d="M0.1708,0.1825L20.4708,-18.8175L20.1292,-19.1825L-0.1708,-0.1825Z" id="silsid_node_51" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 79.2 203)"/>
+  <path d="M0.1883,0.1645L16.7883,-18.8355L16.4117,-19.1645L-0.1883,-0.1645Z" id="silsid_node_52" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 108.4 203)"/>
+  <path d="M0.2068,0.1404L13.1068,-18.8596L12.6932,-19.1404L-0.2068,-0.1404Z" id="silsid_node_53" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 137.6 203)"/>
+  <path d="M0.225,0.109L9.425,-18.891L8.975,-19.109L-0.225,-0.109Z" id="silsid_node_54" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 166.8 203)"/>
+  <path d="M0.2401,0.0695L5.7401,-18.9305L5.2599,-19.0695L-0.2401,-0.0695Z" id="silsid_node_55" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 196 203)"/>
+  <path d="M0.2489,0.0236L2.0489,-18.9764L1.5511,-19.0236L-0.2489,-0.0236Z" id="silsid_node_56" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 225.2 203)"/>
+  <path d="M0.2488,-0.0249L-1.6512,-19.0249L-2.1488,-18.9751L-0.2488,0.0249Z" id="silsid_node_57" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 254.4 203)"/>
+  <path d="M0.2398,-0.0707L-5.3602,-19.0707L-5.8398,-18.9293L-0.2398,0.0707Z" id="silsid_node_58" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 283.6 203)"/>
+  <path d="M0.2245,-0.1099L-9.0755,-19.1099L-9.5245,-18.8901L-0.2245,0.1099Z" id="silsid_node_59" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 312.8 203)"/>
+  <path d="M0.2063,-0.1412L-12.7937,-19.1412L-13.2063,-18.8588L-0.2063,0.1412Z" id="silsid_node_60" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 342 203)"/>
+  <path d="M0.1878,-0.165L-16.5122,-19.165L-16.8878,-18.835L-0.1878,0.165Z" id="silsid_node_61" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 371.2 203)"/>
+  <path d="M0.1704,-0.1829L-20.2296,-19.1829L-20.5704,-18.8171L-0.1704,0.1829Z" id="silsid_node_62" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 400.4 203)"/>
+  <path d="M0.1548,-0.1963L-23.9452,-19.1963L-24.2548,-18.8037L-0.1548,0.1963Z" id="silsid_node_63" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 429.6 203)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_64" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 74 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_65" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 74 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_66" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 99.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_67" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 99.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_68" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 125 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_69" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 125 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_70" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 150.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_71" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 150.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_72" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 176 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_73" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 176 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_74" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 201.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_75" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 201.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_76" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 227 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_77" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 227 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_78" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 252.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_79" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 252.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_80" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 278 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_81" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 278 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_82" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 303.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_83" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 303.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_84" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 329 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_85" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 329 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_86" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 354.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_87" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 354.5 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_88" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 380 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_89" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 380 183)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_90" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 405.5 77)"/>
+  <path d="M-1.5,-1.5L1.5,-1.5L1.5,1.5L-1.5,1.5Z" id="silsid_node_91" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 405.5 183)"/>
+  <path d="M0,0L184,0L184,62L0,62Z" id="silsid_node_92" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 68 82)"/>
+  <path d="M0,0L184,0L184,32L0,32Z" id="silsid_node_93" fill="none" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 68 148)"/>
+  <path d="M0,0L76,0L76,62L0,62Z" id="silsid_node_94" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 258 82)"/>
+  <path d="M0,0L76,0L76,32L0,32Z" id="silsid_node_95" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 258 148)"/>
+  <path d="M0,0L72,0L72,98L0,98Z" id="silsid_node_96" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 340 82)"/>
+  <path d="M0,0.2L176,0.2L176,-0.2L0,-0.2Z" id="silsid_node_97" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 72 113)"/>
+  <path d="M0,0.2L68,0.2L68,-0.2L0,-0.2Z" id="silsid_node_98" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 262 165)"/>
+  <path d="M0,0L54,0L54,26L0,26Z" id="silsid_node_99" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 72 152)"/>
+  <path d="M0,0L54,0L54,26L0,26Z" id="silsid_node_100" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 132 152)"/>
+  <path d="M0,0L54,0L54,26L0,26Z" id="silsid_node_101" fill="none" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 192 152)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_102" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 82 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_103" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 93 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_104" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 104 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_105" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 115 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_106" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 142 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_107" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 153 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_108" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 164 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_109" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 175 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_110" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 202 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_111" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 213 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_112" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 224 174)"/>
+  <path d="M-4,0.7L4,0.7L4,-0.7L-4,-0.7Z" id="silsid_node_113" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 235 174)"/>
+  <circle cx="0" cy="0" r="2" id="silsid_node_114" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 402.5442 117.0285)"/>
+  <circle cx="0" cy="0" r="1.8" id="silsid_node_115" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 296 113)"/>
+  <path d="M0,0.5L12,0.5L12,-0.5L0,-0.5Z" id="silsid_node_116" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 356 170)"/>
+  <path d="M0,0.5L12,0.5L12,-0.5L0,-0.5Z" id="silsid_node_117" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 356 174)"/>
+  <path d="M-0.25,0L-0.25,10L0.25,10L0.25,0Z" id="silsid_node_118" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 362 160)"/>
+  <path d="M0,0.5L12,0.5L12,-0.5L0,-0.5Z" id="silsid_node_119" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 384 170)"/>
+  <path d="M0,0.5L12,0.5L12,-0.5L0,-0.5Z" id="silsid_node_120" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 384 174)"/>
+  <path d="M-0.25,0L-0.25,10L0.25,10L0.25,0Z" id="silsid_node_121" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 390 160)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_122" fill="#000000" stroke="#000000" stroke-width="0.5" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_123" fill="#323232" stroke="#323232" stroke-width="0.5" transform="matrix(1 0 0 1 60 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_124" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="0.5" transform="matrix(1 0 0 1 120 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_125" fill="#646464" stroke="#646464" stroke-width="0.5" transform="matrix(1 0 0 1 180 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_126" fill="#7D7D7D" stroke="#7D7D7D" stroke-width="0.5" transform="matrix(1 0 0 1 240 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_127" fill="#969696" stroke="#969696" stroke-width="0.5" transform="matrix(1 0 0 1 300 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_128" fill="#AFAFAF" stroke="#AFAFAF" stroke-width="0.5" transform="matrix(1 0 0 1 360 0)"/>
+  <path d="M0,0L60,0L60,20L0,20Z" id="silsid_node_129" fill="#CDCDCD" stroke="#CDCDCD" stroke-width="0.5" transform="matrix(1 0 0 1 420 0)"/>
+  <text id="silsid_text_0" transform="matrix(1 0 0 1 5 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">wave</text>
+  <text id="silsid_text_1" transform="matrix(1 0 0 1 125 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">width</text>
+  <text id="silsid_text_2" transform="matrix(1 0 0 1 245 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">cutoff</text>
+  <text id="silsid_text_3" transform="matrix(1 0 0 1 365 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">reso</text>
+  <text id="silsid_text_4" transform="matrix(1 0 0 1 65 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">pulse</text>
+  <text id="silsid_text_5" transform="matrix(1 0 0 1 185 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">36%</text>
+  <text id="silsid_text_6" transform="matrix(1 0 0 1 305 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">8.6k</text>
+  <text id="silsid_text_7" transform="matrix(1 0 0 1 425 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">40</text>
+  <text id="silsid_text_8" transform="matrix(1 0 0 1 5 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">filter</text>
+  <text id="silsid_text_9" transform="matrix(1 0 0 1 125 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">mod</text>
+  <text id="silsid_text_10" transform="matrix(1 0 0 1 245 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">env</text>
+  <text id="silsid_text_11" transform="matrix(1 0 0 1 365 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">arp</text>
+  <text id="silsid_text_12" transform="matrix(1 0 0 1 65 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">lp</text>
+  <text id="silsid_text_13" transform="matrix(1 0 0 1 185 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">off</text>
+  <text id="silsid_text_14" transform="matrix(1 0 0 1 305 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">04B4</text>
+  <text id="silsid_text_15" transform="matrix(1 0 0 1 425 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">off</text>
+  <circle id="silsid_palette_0" cx="0" cy="0" r="1" fill="#E6E6E6" stroke="#E6E6E6" stroke-width="0.6" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_1" cx="0" cy="0" r="1" fill="#8A8A8A" stroke="#8A8A8A" stroke-width="0.6" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_2" cx="0" cy="0" r="1" fill="#3A3A3A" stroke="#3A3A3A" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_3" cx="0" cy="0" r="1" fill="#1A1A1A" stroke="#1A1A1A" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_4" cx="0" cy="0" r="1" fill="#0B0B0B" stroke="#6E6E6E" stroke-width="0.6" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_5" cx="0" cy="0" r="1" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.8" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_6" cx="0" cy="0" r="1" fill="#000000" stroke="#000000" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_7" cx="0" cy="0" r="1" fill="#323232" stroke="#323232" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_8" cx="0" cy="0" r="1" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_9" cx="0" cy="0" r="1" fill="#646464" stroke="#646464" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_10" cx="0" cy="0" r="1" fill="#7D7D7D" stroke="#7D7D7D" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_11" cx="0" cy="0" r="1" fill="#969696" stroke="#969696" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_12" cx="0" cy="0" r="1" fill="#AFAFAF" stroke="#AFAFAF" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+  <circle id="silsid_palette_13" cx="0" cy="0" r="1" fill="#CDCDCD" stroke="#CDCDCD" stroke-width="0.5" transform="matrix(1 0 0 1 640 320)"/>
+</g>

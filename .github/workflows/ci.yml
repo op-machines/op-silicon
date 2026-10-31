@@ -1,0 +1,79 @@
+# SPDX-License-Identifier: MIT
+# Based on the Open-XY SDK starter workflow (MIT, Open-XY contributors).
+name: Machine checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+env:
+  # Pinned Open-XY SDK commit; move it on purpose, together with a retest.
+  OPEN_XY_REF: 8d4bb49de8a2d72453f0ca247fecbb0aeb0daf27
+jobs:
+  licenses:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh scripts/check-licenses.sh
+  list:
+    runs-on: ubuntu-latest
+    outputs:
+      machines: ${{ steps.ls.outputs.machines }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: ls
+        run: echo "machines=$(ls -d machines/*/ 2>/dev/null | xargs -n1 basename | jq -R . | jq -sc .)" >> "$GITHUB_OUTPUT"
+  machine:
+    needs: list
+    if: needs.list.outputs.machines != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.machines) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+      - uses: actions/checkout@v4
+        with:
+          repository: etcetc000/open-xy
+          ref: ${{ env.OPEN_XY_REF }}
+          path: open-xy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Preview and host tools
+        run: |
+          sudo apt-get update && sudo apt-get install -y clang lld
+          python -m pip install numpy==2.3.5
+      - name: Machine source, preview and sound checks
+        run: python open-xy/sdk.py test --machine repo/machines/${{ matrix.id }} --cxx clang++ --host-cxx g++
+  firmware:
+    needs: list
+    if: needs.list.outputs.machines != '[]'
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJson(needs.list.outputs.machines) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+      - uses: actions/checkout@v4
+        with:
+          repository: etcetc000/open-xy
+          ref: ${{ env.OPEN_XY_REF }}
+          path: open-xy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Pinned Blackfin tools
+        run: python open-xy/sdk.py toolchain fetch
+      - name: Native compile (no stock firmware or device)
+        run: python open-xy/sdk.py compile --machine repo/machines/${{ matrix.id }} --out "${{ runner.temp }}/module"

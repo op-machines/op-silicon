@@ -1,0 +1,67 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (c) 2026 op-machines -->
+<g id="silay_panel">
+<!-- SDK two-page header: keep this block before machine artwork below y=38. -->
+<path d="M0,0 L480,0 L480,38 L0,38 Z" fill="#000000"/>
+<path id="silay_node_2" transform="matrix(1 0 0 1 0 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#000000" stroke="#000000" stroke-width="0.5"/>
+<path id="silay_node_3" transform="matrix(1 0 0 1 60 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#323232" stroke="#323232" stroke-width="0.5"/>
+<path id="silay_node_4" transform="matrix(1 0 0 1 120 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#4B4B4B" stroke="#4B4B4B" stroke-width="0.5"/>
+<path id="silay_node_5" transform="matrix(1 0 0 1 180 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#646464" stroke="#646464" stroke-width="0.5"/>
+<path id="silay_node_6" transform="matrix(1 0 0 1 240 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#7D7D7D" stroke="#7D7D7D" stroke-width="0.5"/>
+<path id="silay_node_7" transform="matrix(1 0 0 1 300 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#969696" stroke="#969696" stroke-width="0.5"/>
+<path id="silay_node_8" transform="matrix(1 0 0 1 360 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#AFAFAF" stroke="#AFAFAF" stroke-width="0.5"/>
+<path id="silay_node_9" transform="matrix(1 0 0 1 420 0)" d="M0,0 L60,0 L60,20 L0,20 Z" fill="#CDCDCD" stroke="#CDCDCD" stroke-width="0.5"/>
+<text id="silay_text_0" transform="matrix(1 0 0 1 5 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_1" transform="matrix(1 0 0 1 125 10)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_2" transform="matrix(1 0 0 1 245 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_3" transform="matrix(1 0 0 1 365 10)" fill="#000000" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_4" transform="matrix(1 0 0 1 65 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="silay_text_5" transform="matrix(1 0 0 1 185 17.4)" fill="#CBCBCB" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="silay_text_6" transform="matrix(1 0 0 1 305 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="silay_text_7" transform="matrix(1 0 0 1 425 17.4)" fill="#000000" font-family="UniversNextPro-Light" font-size="20px">-</text>
+<text id="silay_text_8" transform="matrix(1 0 0 1 5 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_9" transform="matrix(1 0 0 1 125 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_10" transform="matrix(1 0 0 1 245 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_11" transform="matrix(1 0 0 1 365 33)" fill="#5A5A5A" font-family="UniversNextPro-Light" font-size="10px">-</text>
+<text id="silay_text_12" transform="matrix(1 0 0 1 65 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="silay_text_13" transform="matrix(1 0 0 1 185 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="silay_text_14" transform="matrix(1 0 0 1 305 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+<text id="silay_text_15" transform="matrix(1 0 0 1 425 33)" fill="#707070" font-family="UniversNextPro-Light" font-size="13px">-</text>
+  <path id="silay_node_0" d="M-62 0 L-58 0 L-54 0 L-50 0 L-46 0 L-42 0 L-38 0 L-34 0 L-30 0 L-26 0 L-22 0 L-18 0 L-14 0 L-10 0 L-6 0 L-2 0 L2 0 L6 0 L10 0 L14 0 L18 0 L22 0 L26 0 L30 0 L34 0 L38 0 L42 0 L46 0 L50 0 L54 0 L58 0 L62 0 L62 2 L58 2 L54 2 L50 2 L46 2 L42 2 L38 2 L34 2 L30 2 L26 2 L22 2 L18 2 L14 2 L10 2 L6 2 L2 2 L-2 2 L-6 2 L-10 2 L-14 2 L-18 2 L-22 2 L-26 2 L-30 2 L-34 2 L-38 2 L-42 2 L-46 2 L-50 2 L-54 2 L-58 2 L-62 2 Z" fill="none" stroke="#666666" stroke-width="1"/>
+  <path id="silay_node_1" d="M-62 0 L-58 0 L-54 0 L-50 0 L-46 0 L-42 0 L-38 0 L-34 0 L-30 0 L-26 0 L-22 0 L-18 0 L-14 0 L-10 0 L-6 0 L-2 0 L2 0 L6 0 L10 0 L14 0 L18 0 L22 0 L26 0 L30 0 L34 0 L38 0 L42 0 L46 0 L50 0 L54 0 L58 0 L62 0 L62 2 L58 2 L54 2 L50 2 L46 2 L42 2 L38 2 L34 2 L30 2 L26 2 L22 2 L18 2 L14 2 L10 2 L6 2 L2 2 L-2 2 L-6 2 L-10 2 L-14 2 L-18 2 L-22 2 L-26 2 L-30 2 L-34 2 L-38 2 L-42 2 L-46 2 L-50 2 L-54 2 L-58 2 L-62 2 Z" fill="none" stroke="#666666" stroke-width="1"/>
+  <path id="silay_node_10" d="M80,176 L96,176 L96,186 L80,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_11" d="M100,176 L116,176 L116,186 L100,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_12" d="M120,176 L136,176 L136,186 L120,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_13" d="M140,176 L156,176 L156,186 L140,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_14" d="M160,176 L176,176 L176,186 L160,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_15" d="M180,176 L196,176 L196,186 L180,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_16" d="M200,176 L216,176 L216,186 L200,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_17" d="M220,176 L236,176 L236,186 L220,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_18" d="M240,176 L256,176 L256,186 L240,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_19" d="M260,176 L276,176 L276,186 L260,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_20" d="M280,176 L296,176 L296,186 L280,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_21" d="M300,176 L316,176 L316,186 L300,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_22" d="M320,176 L336,176 L336,186 L320,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_23" d="M340,176 L356,176 L356,186 L340,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_24" d="M360,176 L376,176 L376,186 L360,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_25" d="M380,176 L396,176 L396,186 L380,186 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_26" d="M200,56 L208,56 L208,64 L200,64 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_27" d="M240,56 L248,56 L248,64 L240,64 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <path id="silay_node_28" d="M280,56 L288,56 L288,64 L280,64 Z" fill="#333333" stroke="#333333" stroke-width="0.5"/>
+  <circle id="silay_palette_0" cx="640" cy="0" r="1" fill="#000000" stroke="#000000" stroke-width="1"/>
+  <circle id="silay_palette_1" cx="640" cy="0" r="1" fill="#111111" stroke="#111111" stroke-width="1"/>
+  <circle id="silay_palette_2" cx="640" cy="0" r="1" fill="#222222" stroke="#222222" stroke-width="1"/>
+  <circle id="silay_palette_3" cx="640" cy="0" r="1" fill="#333333" stroke="#333333" stroke-width="1"/>
+  <circle id="silay_palette_4" cx="640" cy="0" r="1" fill="#444444" stroke="#444444" stroke-width="1"/>
+  <circle id="silay_palette_5" cx="640" cy="0" r="1" fill="#555555" stroke="#555555" stroke-width="1"/>
+  <circle id="silay_palette_6" cx="640" cy="0" r="1" fill="#666666" stroke="#666666" stroke-width="1"/>
+  <circle id="silay_palette_7" cx="640" cy="0" r="1" fill="#777777" stroke="#777777" stroke-width="1"/>
+  <circle id="silay_palette_8" cx="640" cy="0" r="1" fill="#888888" stroke="#888888" stroke-width="1"/>
+  <circle id="silay_palette_9" cx="640" cy="0" r="1" fill="#999999" stroke="#999999" stroke-width="1"/>
+  <circle id="silay_palette_10" cx="640" cy="0" r="1" fill="#aaaaaa" stroke="#aaaaaa" stroke-width="1"/>
+  <circle id="silay_palette_11" cx="640" cy="0" r="1" fill="#bbbbbb" stroke="#bbbbbb" stroke-width="1"/>
+  <circle id="silay_palette_12" cx="640" cy="0" r="1" fill="#cccccc" stroke="#cccccc" stroke-width="1"/>
+  <circle id="silay_palette_13" cx="640" cy="0" r="1" fill="#dddddd" stroke="#dddddd" stroke-width="1"/>
+  <circle id="silay_palette_14" cx="640" cy="0" r="1" fill="#ff6a1a" stroke="#ff6a1a" stroke-width="1"/>
+  <circle id="silay_palette_15" cx="640" cy="0" r="1" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+</g>

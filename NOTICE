@@ -1,0 +1,12 @@
+op-silicon
+Copyright (c) 2026 op-machines
+
+The repository frame (README, scripts, site, CI) is MIT licensed (LICENSE).
+Each machine under machines/<id>/ has its own LICENSE file, which governs that
+folder. machines/silsid/ is GPL-2.0-or-later because it contains reSID; no
+other part of this repository contains or links GPL code.
+
+Not affiliated with teenage engineering. OP-XY is a trademark of teenage
+engineering. Chip names (SID, AY-3-8910, 2A03, Paula) are used descriptively.
+
+Third-party parts: see THIRD_PARTY.md.

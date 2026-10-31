@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "sdk": "1.6",
+  "kind": "synth",
+  "description": "NES APU sound (2A03), clean-room: pulse with four duties and sweep, 32-step triangle, long and short noise, decay envelope, nonlinear mixer. MIT."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "op-silicon-site",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "list": "node ../scripts/list.ts",
+    "build": "tsc --noEmit && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "vite": "^7.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "schema": 1,
+  "sdk": "1.6",
+  "kind": "synth",
+  "description": "AY-3-8910 / YM2149 sound chip, clean-room: square tones, 17-bit noise, the 16 hardware envelope shapes and buzz. MIT."
+}

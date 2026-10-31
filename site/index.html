@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: MIT -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#140d08">
+  <title>op-silicon</title>
+  <meta name="description" content="Chip synths for the OP-XY: SID, AY, NES APU and Amiga Paula as Open-XY machines.">
+</head>
+<body>
+  <header class="top">
+    <h1>op-silicon</h1>
+    <p class="lede">Classic sound chips as machines for the OP-XY, built with the
+      <a href="https://github.com/etcetc000/open-xy">Open-XY SDK</a>. Listen to them here, in your browser.</p>
+  </header>
+
+  <main>
+    <p class="note" id="status">Loading machines …</p>
+    <section id="machines" class="machines" aria-label="Machines"></section>
+
+    <section class="card text">
+      <h2>Build and install</h2>
+      <p>These machines run on <strong>custom OP-XY firmware</strong> built with the Open-XY SDK. That is
+        <strong>unofficial and experimental</strong>: you install it at your own risk. You can always go back by
+        installing the official OS update from teenage engineering.</p>
+      <ol>
+        <li>Set up the SDK as described in
+          <a href="https://github.com/etcetc000/open-xy/blob/staging/docs/first-machine.md">first machine</a>.</li>
+        <li>Test a machine: <code>python sdk.py test --machine path/to/op-silicon/machines/&lt;id&gt;</code></li>
+        <li>Build and install the firmware as described in
+          <a href="https://github.com/etcetc000/open-xy/blob/staging/docs/build.md">build</a>.</li>
+      </ol>
+    </section>
+
+    <section class="card text">
+      <h2>Licences</h2>
+      <p>Each machine carries its own licence. <code>silsid</code> uses reSID and is
+        <strong>GPL-2.0-or-later</strong>; only that machine is GPL. Everything else is MIT, written from public
+        datasheets and documentation.</p>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Not affiliated with teenage engineering. OP-XY is a trademark of teenage engineering; it is named here only
+      to say what these machines run on.</p>
+    <p><a href="https://github.com/op-machines/op-silicon">Source code</a></p>
+  </footer>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
